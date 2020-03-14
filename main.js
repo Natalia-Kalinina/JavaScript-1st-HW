@@ -78,16 +78,16 @@ console.log (myTest);
  */
 
 // константа Pi → myPi
-const myPi = Math.PI;
+var myPi = Math.PI;
 console.log(Math.PI);
 // округленное значение числа 89.279 → myRound
-const myRound = Math.round;
+var myRound = Math.round;
 console.log(Math.round(89.279));
 // случайное число между 0..10 → myRandom
-const myRandom = Math.random;
+var myRandom = Math.random;
 console.log(Math.random()*10);
 // 3 в 5 степени → myPow
-const myPow = Math.pow;
+var myPow = Math.pow;
 console.log(Math.pow(3,5));
 /*
  * #6
