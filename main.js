@@ -81,14 +81,14 @@ console.log (myTest);
 var myPi = Math.PI;
 console.log(Math.PI);
 // округленное значение числа 89.279 → myRound
-var myRound = Math.round;
-console.log(Math.round(89.279));
+var myRound = Math.round(89.279);
+console.log(myRound);
 // случайное число между 0..10 → myRandom
-var myRandom = Math.random;
-console.log(Math.random()*10);
+var myRandom = Math.random()*10;
+console.log(myRandom);
 // 3 в 5 степени → myPow
-var myPow = Math.pow;
-console.log(Math.pow(3,5));
+var myPow = Math.pow(3,5);
+console.log(myPow);
 /*
  * #6
  *
